@@ -48,7 +48,6 @@ removeClass.onblur = function () {
       container.children[i].remove()
       removeClass.value = ""
     }
-    // console.log(container.children[i].innerHTML)
 
     }
 
