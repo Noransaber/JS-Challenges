@@ -44,6 +44,7 @@ removeClass.onblur = function () {
   for(i = 0; i < container.children.length; i++){
     let removedValue = removeClass.value
     if(removedValue === container.children[i].innerHTML){
+      // remove the child
       container.children[i].remove()
       removeClass.value = ""
     }
